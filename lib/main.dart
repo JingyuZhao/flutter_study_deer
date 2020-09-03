@@ -6,6 +6,7 @@ import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_study/common/common.dart';
 import 'package:flutter_study/routers/router.dart';
+import 'package:flutter_study/routers/application.dart';
 import 'package:flutter_study/utils/device_util.dart';
 import 'package:flutter_study/utils/log_util.dart';
 
@@ -36,6 +37,7 @@ class MyApp extends StatelessWidget {
     _initDio();
     final Router router = Router();
     Routers.configureRoutes(router);
+    Application.router = router;
   }
 
   @override

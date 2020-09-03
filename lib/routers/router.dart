@@ -1,9 +1,9 @@
 import 'package:fluro/fluro.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_study/pages/webview_page.dart';
+import 'package:flutter_study/pages/home/webview_page.dart';
 import 'package:flutter_study/routers/router_init.dart';
 import 'package:flutter_study/widgets/pageNotFound.dart';
-import 'package:flutter_study/pages/home_page.dart';
+import 'package:flutter_study/pages/home/home_page.dart';
 
 class Routers {
   static String home = '/home';
