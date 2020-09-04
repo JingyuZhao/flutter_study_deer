@@ -7,7 +7,7 @@ class BaseEntity<T> {
   T data;
   BaseEntity(this.code, this.message, this.data);
 
-  BaseEntity.formJson(Map<String, dynamic> json) {
+  BaseEntity.fromJson(Map<String, dynamic> json) {
     code = json[Constant.code] as int;
     message = json[Constant.message] as String;
     if (json.containsKey(Constant.data)) {

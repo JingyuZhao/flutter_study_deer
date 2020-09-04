@@ -146,15 +146,6 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  flutter_2d_amap:
-    dependency: "direct dev"
-    description:
-      path: "."
-      ref: "323fcf8"
-      resolved-ref: "323fcf8203d89a4235f923a1b53ae1e455c9afb3"
-      url: "https://github.com/simplezhli/flutter_2d_amap.git"
-    source: git
-    version: "0.1.0"
   flutter_blurhash:
     dependency: transitive
     description:
@@ -242,13 +233,6 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "0.16.1"
-  js:
-    dependency: transitive
-    description:
-      name: js
-      url: "https://pub.flutter-io.cn"
-    source: hosted
-    version: "0.6.2"
   keyboard_actions:
     dependency: "direct dev"
     description:
