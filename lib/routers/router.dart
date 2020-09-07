@@ -1,6 +1,7 @@
 import 'package:fluro/fluro.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_study/pages/home/webview_page.dart';
+import 'package:flutter_study/pages/login/login_router.dart';
 import 'package:flutter_study/routers/router_init.dart';
 import 'package:flutter_study/widgets/pageNotFound.dart';
 import 'package:flutter_study/pages/home/home_page.dart';
@@ -35,7 +36,7 @@ class Routers {
 
     /// 各自路由由各自模块管理，统一在此添加初始化
     // _listRouter.add(ShopRouter());
-    // _listRouter.add(LoginRouter());
+    _listRouter.add(LoginRouter());
     // _listRouter.add(GoodsRouter());
     // _listRouter.add(OrderRouter());
     // _listRouter.add(StoreRouter());

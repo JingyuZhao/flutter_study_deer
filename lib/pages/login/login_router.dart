@@ -1,3 +1,5 @@
+import 'package:flutter_study/pages/login/pages/login_page.dart';
+import 'package:flutter_study/pages/login/pages/register_page.dart';
 import 'package:flutter_study/routers/router_init.dart';
 import 'package:fluro/fluro.dart';
 
@@ -10,10 +12,10 @@ class LoginRouter implements IRouterProvider {
 
   @override
   void initRouter(Router router) {
-    // router.define(loginPage,
-    //     handler: Handler(handlerFunc: (_, __) => LoginPage()));
-    // router.define(registerPage,
-    //     handler: Handler(handlerFunc: (_, __) => RegisterPage()));
+    router.define(loginPage,
+        handler: Handler(handlerFunc: (_, __) => LoginPage()));
+    router.define(registerPage,
+        handler: Handler(handlerFunc: (_, __) => RegisterPage()));
     // router.define(smsLoginPage,
     //     handler: Handler(handlerFunc: (_, __) => SMSLoginPage()));
     // router.define(resetPasswordPage,

@@ -65,7 +65,7 @@ class MyApp extends StatelessWidget {
           builder: (ctx, provider, _) {
             return MaterialApp(
                 title: "Flutter Study",
-                debugShowCheckedModeBanner: true,
+                debugShowCheckedModeBanner: false,
                 theme: provider.getTheme(),
                 darkTheme: provider.getTheme(isDarkMode: true),
                 themeMode: provider.getThemeMode(),

@@ -60,8 +60,8 @@ class _SplashPageState extends State<SplashPage> {
               ImageUtils.getAssetImage(image, format: ImageFormat.webp),
               context);
         });
-        _initSplash();
       }
+      _initSplash();
     });
 
     @override

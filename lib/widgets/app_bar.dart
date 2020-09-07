@@ -95,7 +95,7 @@ class MyAppBar extends StatelessWidget implements PreferredSizeWidget {
           color: _backgroundColor,
           child: SafeArea(
               child: Stack(
-            alignment: Alignment.center,
+            alignment: Alignment.centerLeft,
             children: [titleWidget, back, action],
           )),
         ),
