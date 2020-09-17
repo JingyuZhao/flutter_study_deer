@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_study/common/common.dart';
 import 'package:flutter_study/pages/login/login_router.dart';
 import 'package:flutter_study/pages/login/widget/my_text_field.dart';
+import 'package:flutter_study/pages/store/store_router.dart';
 import 'package:flutter_study/res/resources.dart';
 import 'package:flutter_study/routers/fluro_navigator.dart';
 import 'package:flutter_study/utils/change_notifier_manage.dart';
@@ -65,7 +66,7 @@ class _LoginPageState extends State<LoginPage>
 
   void _login() {
     SpUtil.putString(Constant.phone, _nameController.text);
-    // NavigatorUtils.push(context, StoreRouter.auditPage);
+    NavigatorUtils.push(context, StoreRouter.auditPage);
   }
 
   @override
