@@ -1,8 +1,10 @@
 import 'package:fluro/fluro.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_study/pages/goods/goods_router.dart';
 import 'package:flutter_study/pages/home/webview_page.dart';
 import 'package:flutter_study/pages/login/login_router.dart';
 import 'package:flutter_study/pages/order/order_router.dart';
+import 'package:flutter_study/pages/shop/shop_router.dart';
 import 'package:flutter_study/pages/store/store_router.dart';
 import 'package:flutter_study/routers/router_init.dart';
 import 'package:flutter_study/widgets/pageNotFound.dart';
@@ -37,9 +39,9 @@ class Routers {
     _listRouter.clear();
 
     /// 各自路由由各自模块管理，统一在此添加初始化
-    // _listRouter.add(ShopRouter());
+    _listRouter.add(ShopRouter());
     _listRouter.add(LoginRouter());
-    // _listRouter.add(GoodsRouter());
+    _listRouter.add(GoodsRouter());
     _listRouter.add(OrderRouter());
     _listRouter.add(StoreRouter());
     // _listRouter.add(AccountRouter());
