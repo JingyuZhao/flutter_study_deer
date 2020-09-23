@@ -5,6 +5,7 @@ import 'package:flutter_study/pages/home/webview_page.dart';
 import 'package:flutter_study/pages/login/login_router.dart';
 import 'package:flutter_study/pages/order/order_router.dart';
 import 'package:flutter_study/pages/shop/shop_router.dart';
+import 'package:flutter_study/pages/statistics/statistics_router.dart';
 import 'package:flutter_study/pages/store/store_router.dart';
 import 'package:flutter_study/routers/router_init.dart';
 import 'package:flutter_study/widgets/pageNotFound.dart';
@@ -46,7 +47,7 @@ class Routers {
     _listRouter.add(StoreRouter());
     // _listRouter.add(AccountRouter());
     // _listRouter.add(SettingRouter());
-    // _listRouter.add(StatisticsRouter());
+    _listRouter.add(StatisticsRouter());
 
     /// 初始化路由
     _listRouter.forEach((routerProvider) {
